@@ -12,7 +12,7 @@
       },
       "properties": {
         "id": "1",
-        "name": "Panadería Tradicional Gran Concepción",
+        "name": "Panadería Central Gran Concepción",
         "shop": "bakery",
         "tipo_label": "Panadería Dedicada"
       }
@@ -28,25 +28,9 @@
       },
       "properties": {
         "id": "2",
-        "name": "Almacén Don Juan",
+        "name": "Almacén Don Mario",
         "shop": "convenience",
         "tipo_label": "Almacén de Barrio"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.0558,
-          -36.832
-        ]
-      },
-      "properties": {
-        "id": "3",
-        "name": "Panadería El Sol",
-        "shop": "bakery",
-        "tipo_label": "Panadería Dedicada"
       }
     }
   ]

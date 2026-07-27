@@ -6,29 +6,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.5518,
-          -33.0245
+          -71.5494397,
+          -33.0140881
         ]
       },
       "properties": {
-        "id": "1",
-        "name": "Panadería Tradicional Gran Valparaíso",
-        "shop": "bakery",
-        "tipo_label": "Panadería Dedicada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5468,
-          -33.020500000000006
-        ]
-      },
-      "properties": {
-        "id": "2",
-        "name": "Almacén Don Juan",
+        "id": "('node', 257664981)",
+        "name": "OK Market",
         "shop": "convenience",
         "tipo_label": "Almacén de Barrio"
       }
@@ -38,15 +22,3791 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.5578,
-          -33.029500000000006
+          -71.5437129,
+          -33.018447
         ]
       },
       "properties": {
-        "id": "3",
-        "name": "Panadería El Sol",
+        "id": "('node', 309312514)",
+        "name": "Panadería Inglesa",
         "shop": "bakery",
         "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5627808,
+          -33.0280712
+        ]
+      },
+      "properties": {
+        "id": "('node', 342488131)",
+        "name": "Lourdes",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5465638,
+          -33.0106251
+        ]
+      },
+      "properties": {
+        "id": "('node', 369665520)",
+        "name": "Modelo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5563514,
+          -33.0196193
+        ]
+      },
+      "properties": {
+        "id": "('node', 369919960)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5540898,
+          -33.0169833
+        ]
+      },
+      "properties": {
+        "id": "('node', 369920144)",
+        "name": "Paula",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5313177,
+          -33.0311774
+        ]
+      },
+      "properties": {
+        "id": "('node', 369930218)",
+        "name": "Karin Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5627821,
+          -33.0258823
+        ]
+      },
+      "properties": {
+        "id": "('node', 388245979)",
+        "name": "Panadería Y Cafetería Span y Café",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5510838,
+          -33.0218413
+        ]
+      },
+      "properties": {
+        "id": "('node', 391699681)",
+        "name": "La Nueva Naranja Mecánica",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5481024,
+          -32.9995333
+        ]
+      },
+      "properties": {
+        "id": "('node', 616554949)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5496305,
+          -33.004507
+        ]
+      },
+      "properties": {
+        "id": "('node', 616555256)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5838531,
+          -33.0281256
+        ]
+      },
+      "properties": {
+        "id": "('node', 703006599)",
+        "name": "Gran Océano",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5828313,
+          -33.0279578
+        ]
+      },
+      "properties": {
+        "id": "('node', 703006600)",
+        "name": "Latorre",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5746673,
+          -33.028266
+        ]
+      },
+      "properties": {
+        "id": "('node', 703029563)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5810931,
+          -33.0320641
+        ]
+      },
+      "properties": {
+        "id": "('node', 703494727)",
+        "name": "am pm",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5635332,
+          -33.0279622
+        ]
+      },
+      "properties": {
+        "id": "('node', 850116575)",
+        "name": "Minimarket Fabián",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5435962,
+          -32.9582933
+        ]
+      },
+      "properties": {
+        "id": "('node', 1077413266)",
+        "name": "Upita",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5437624,
+          -32.9580519
+        ]
+      },
+      "properties": {
+        "id": "('node', 1077417287)",
+        "name": "Paula Panadería y Pastelería",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5431984,
+          -32.9718035
+        ]
+      },
+      "properties": {
+        "id": "('node', 1095851110)",
+        "name": "Don Homero",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5691977,
+          -33.0269042
+        ]
+      },
+      "properties": {
+        "id": "('node', 1520494619)",
+        "name": "Bimbo",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5769291,
+          -33.0297623
+        ]
+      },
+      "properties": {
+        "id": "('node', 1520494628)",
+        "name": "Minimarket Jumbito",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5670452,
+          -33.0244574
+        ]
+      },
+      "properties": {
+        "id": "('node', 1520494640)",
+        "name": "Minimarket El Gusto",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5705964,
+          -33.0267557
+        ]
+      },
+      "properties": {
+        "id": "('node', 1520494643)",
+        "name": "Parisino",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5379906,
+          -32.9715467
+        ]
+      },
+      "properties": {
+        "id": "('node', 1680002540)",
+        "name": "Botillería Dina",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5327318,
+          -33.0330278
+        ]
+      },
+      "properties": {
+        "id": "('node', 1836653773)",
+        "name": "Cocaví",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.544083,
+          -32.9495159
+        ]
+      },
+      "properties": {
+        "id": "('node', 2092269417)",
+        "name": "Pronto Copec",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5662314,
+          -33.0385515
+        ]
+      },
+      "properties": {
+        "id": "('node', 2116759593)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5128318,
+          -33.0245062
+        ]
+      },
+      "properties": {
+        "id": "('node', 2193649968)",
+        "name": "Almacen",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.508783,
+          -33.0390213
+        ]
+      },
+      "properties": {
+        "id": "('node', 2193689939)",
+        "name": "Almacén",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4876781,
+          -33.0067248
+        ]
+      },
+      "properties": {
+        "id": "('node', 2280254740)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.580179,
+          -33.0323945
+        ]
+      },
+      "properties": {
+        "id": "('node', 2313725342)",
+        "name": "Donde Cristóbal",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5442218,
+          -33.0315842
+        ]
+      },
+      "properties": {
+        "id": "('node', 2896304525)",
+        "name": "Victoria",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5409698,
+          -33.0028083
+        ]
+      },
+      "properties": {
+        "id": "('node', 3111842339)",
+        "name": "Panadería Kary",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.551327,
+          -33.0160519
+        ]
+      },
+      "properties": {
+        "id": "('node', 3669540793)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4979379,
+          -33.018422
+        ]
+      },
+      "properties": {
+        "id": "('node', 3945158263)",
+        "name": "Provisiones Luis Hurtado",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5560742,
+          -33.0238775
+        ]
+      },
+      "properties": {
+        "id": "('node', 4049605623)",
+        "name": "Equipados",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5427898,
+          -33.0275267
+        ]
+      },
+      "properties": {
+        "id": "('node', 4148013439)",
+        "name": "La Industrial",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5011128,
+          -32.9991615
+        ]
+      },
+      "properties": {
+        "id": "('node', 4168425389)",
+        "name": "La Palmera",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4998883,
+          -32.9984015
+        ]
+      },
+      "properties": {
+        "id": "('node', 4270641729)",
+        "name": "Pachamama",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5136129,
+          -32.9961382
+        ]
+      },
+      "properties": {
+        "id": "('node', 4299169779)",
+        "name": "Provisiones Renacer",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.573549,
+          -33.0274438
+        ]
+      },
+      "properties": {
+        "id": "('node', 4356137490)",
+        "name": "Bimbo",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.49609,
+          -32.9960748
+        ]
+      },
+      "properties": {
+        "id": "('node', 4360248791)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4933751,
+          -32.9989438
+        ]
+      },
+      "properties": {
+        "id": "('node', 4360282294)",
+        "name": "Panadería Pan Brial",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4955154,
+          -32.997759
+        ]
+      },
+      "properties": {
+        "id": "('node', 4360303589)",
+        "name": "Los Nietos",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5412637,
+          -33.0425991
+        ]
+      },
+      "properties": {
+        "id": "('node', 4381097910)",
+        "name": "Provisiones Otty",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5318977,
+          -33.034991
+        ]
+      },
+      "properties": {
+        "id": "('node', 4412506993)",
+        "name": "El Álamo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5319426,
+          -33.0473904
+        ]
+      },
+      "properties": {
+        "id": "('node', 4412534990)",
+        "name": "Los Maestros",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5058474,
+          -33.0116815
+        ]
+      },
+      "properties": {
+        "id": "('node', 4425024196)",
+        "name": "Valentina",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5267705,
+          -32.9880952
+        ]
+      },
+      "properties": {
+        "id": "('node', 4563656827)",
+        "name": "Don Oso",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.526886,
+          -32.9881207
+        ]
+      },
+      "properties": {
+        "id": "('node', 4563656828)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5535206,
+          -33.0191647
+        ]
+      },
+      "properties": {
+        "id": "('node', 4763273222)",
+        "name": "la biciclete",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5526998,
+          -33.024443
+        ]
+      },
+      "properties": {
+        "id": "('node', 4803678704)",
+        "name": "Florencia",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5545284,
+          -33.0190366
+        ]
+      },
+      "properties": {
+        "id": "('node', 4804523793)",
+        "name": "Sidney",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5247772,
+          -33.0234605
+        ]
+      },
+      "properties": {
+        "id": "('node', 4840851693)",
+        "name": "Mallén",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5560698,
+          -33.0203827
+        ]
+      },
+      "properties": {
+        "id": "('node', 4870711317)",
+        "name": "El Álamo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5208497,
+          -33.0378414
+        ]
+      },
+      "properties": {
+        "id": "('node', 4874987447)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5547675,
+          -33.0211576
+        ]
+      },
+      "properties": {
+        "id": "('node', 4919803407)",
+        "name": "Emporio de la Vale",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5582922,
+          -33.0242417
+        ]
+      },
+      "properties": {
+        "id": "('node', 4944967564)",
+        "name": "Maitena",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5588407,
+          -33.0241691
+        ]
+      },
+      "properties": {
+        "id": "('node', 4944967567)",
+        "name": "am pm",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.566482,
+          -33.026744
+        ]
+      },
+      "properties": {
+        "id": "('node', 5009890119)",
+        "name": "Javiera",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5675562,
+          -33.026052
+        ]
+      },
+      "properties": {
+        "id": "('node', 5009891122)",
+        "name": "Pacífico",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5729522,
+          -33.0291809
+        ]
+      },
+      "properties": {
+        "id": "('node', 5009891180)",
+        "name": "Mazapán",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5794158,
+          -33.0288934
+        ]
+      },
+      "properties": {
+        "id": "('node', 5009891218)",
+        "name": "Erbi",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5429922,
+          -33.0086952
+        ]
+      },
+      "properties": {
+        "id": "('node', 5045407137)",
+        "name": "La Bicyclette",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.528016,
+          -32.9857812
+        ]
+      },
+      "properties": {
+        "id": "('node', 5045414716)",
+        "name": "Doña Alicia",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.514859,
+          -32.9948865
+        ]
+      },
+      "properties": {
+        "id": "('node', 5045414717)",
+        "name": "Jeshu",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5288804,
+          -32.9869873
+        ]
+      },
+      "properties": {
+        "id": "('node', 5063175754)",
+        "name": "Provisiones Lucy",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5365487,
+          -33.0293371
+        ]
+      },
+      "properties": {
+        "id": "('node', 5154377327)",
+        "name": "Ocoa Beach",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5490138,
+          -33.0093096
+        ]
+      },
+      "properties": {
+        "id": "('node', 5223966900)",
+        "name": "On The Way",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5422403,
+          -33.0042602
+        ]
+      },
+      "properties": {
+        "id": "('node', 5274661430)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5426018,
+          -33.0048312
+        ]
+      },
+      "properties": {
+        "id": "('node', 5274661431)",
+        "name": "Minimarket",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5426249,
+          -33.0041312
+        ]
+      },
+      "properties": {
+        "id": "('node', 5274661432)",
+        "name": "Minimarket",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5596107,
+          -33.0233385
+        ]
+      },
+      "properties": {
+        "id": "('node', 5284529522)",
+        "name": "Valles de Chile",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5061962,
+          -32.9937681
+        ]
+      },
+      "properties": {
+        "id": "('node', 5470358022)",
+        "name": "Provisiones El Chano",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5069177,
+          -32.994146
+        ]
+      },
+      "properties": {
+        "id": "('node', 5470372288)",
+        "name": "Proviciones Coronado",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5081923,
+          -32.9944753
+        ]
+      },
+      "properties": {
+        "id": "('node', 5470374822)",
+        "name": "Donde Ximena",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5060015,
+          -32.9951478
+        ]
+      },
+      "properties": {
+        "id": "('node', 5470600323)",
+        "name": "El Tori",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5660961,
+          -33.0242535
+        ]
+      },
+      "properties": {
+        "id": "('node', 5509844539)",
+        "name": "La Primavera",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5058309,
+          -33.0376451
+        ]
+      },
+      "properties": {
+        "id": "('node', 5574817014)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5665104,
+          -33.0279164
+        ]
+      },
+      "properties": {
+        "id": "('node', 5671013022)",
+        "name": "MiniMarket",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5672486,
+          -33.0286158
+        ]
+      },
+      "properties": {
+        "id": "('node', 5671073521)",
+        "name": "Suecia 21",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5612541,
+          -33.0233626
+        ]
+      },
+      "properties": {
+        "id": "('node', 5800064014)",
+        "name": "La Verbena",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5569761,
+          -33.0248229
+        ]
+      },
+      "properties": {
+        "id": "('node', 5838395748)",
+        "name": "Villanelo",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5605429,
+          -33.0216592
+        ]
+      },
+      "properties": {
+        "id": "('node', 5863603482)",
+        "name": "La Marina",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5525767,
+          -33.0242038
+        ]
+      },
+      "properties": {
+        "id": "('node', 5879272183)",
+        "name": "Olfos",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5601954,
+          -33.0217854
+        ]
+      },
+      "properties": {
+        "id": "('node', 5902458086)",
+        "name": "Amanda",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5526275,
+          -33.0159282
+        ]
+      },
+      "properties": {
+        "id": "('node', 5925719486)",
+        "name": "Bakery Lynch",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5603032,
+          -33.0217544
+        ]
+      },
+      "properties": {
+        "id": "('node', 5950217678)",
+        "name": "Sao",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5466641,
+          -33.0111329
+        ]
+      },
+      "properties": {
+        "id": "('node', 5987167356)",
+        "name": "Paula",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.546807,
+          -33.0188296
+        ]
+      },
+      "properties": {
+        "id": "('node', 6063465246)",
+        "name": "San Lucas",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5448498,
+          -32.9854777
+        ]
+      },
+      "properties": {
+        "id": "('node', 6122242819)",
+        "name": "La Cabaña",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5409732,
+          -33.0072971
+        ]
+      },
+      "properties": {
+        "id": "('node', 6264968646)",
+        "name": "Santa Inés",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5398762,
+          -33.0068045
+        ]
+      },
+      "properties": {
+        "id": "('node', 6264968649)",
+        "name": "San Ignacio",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5438786,
+          -32.9726018
+        ]
+      },
+      "properties": {
+        "id": "('node', 6294741468)",
+        "name": "OK Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5314749,
+          -33.0312133
+        ]
+      },
+      "properties": {
+        "id": "('node', 6397378295)",
+        "name": "Tía Chalen",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5315201,
+          -33.0312665
+        ]
+      },
+      "properties": {
+        "id": "('node', 6443660311)",
+        "name": "Plaza Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4886728,
+          -32.9980306
+        ]
+      },
+      "properties": {
+        "id": "('node', 6446657493)",
+        "name": "Javi",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4878842,
+          -32.9985772
+        ]
+      },
+      "properties": {
+        "id": "('node', 6446657495)",
+        "name": "Rinconcito",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4920363,
+          -32.9994343
+        ]
+      },
+      "properties": {
+        "id": "('node', 6446775715)",
+        "name": "La Bodeguita",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4853992,
+          -32.9991868
+        ]
+      },
+      "properties": {
+        "id": "('node', 6446775719)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5020919,
+          -33.0107868
+        ]
+      },
+      "properties": {
+        "id": "('node', 6515313342)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4982523,
+          -33.0070845
+        ]
+      },
+      "properties": {
+        "id": "('node', 6515313369)",
+        "name": "Shanghai",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4955057,
+          -33.0053576
+        ]
+      },
+      "properties": {
+        "id": "('node', 6515313376)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5456436,
+          -33.0171676
+        ]
+      },
+      "properties": {
+        "id": "('node', 6522189304)",
+        "name": "No Me Olvides",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5459822,
+          -33.0172592
+        ]
+      },
+      "properties": {
+        "id": "('node', 6522189311)",
+        "name": "Pin Pan",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5753507,
+          -33.0284149
+        ]
+      },
+      "properties": {
+        "id": "('node', 6711123513)",
+        "name": "Súper Justo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5754164,
+          -33.0283952
+        ]
+      },
+      "properties": {
+        "id": "('node', 6711123514)",
+        "name": "Vega's",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5547414,
+          -33.0246106
+        ]
+      },
+      "properties": {
+        "id": "('node', 6812341191)",
+        "name": "Sausalito",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5595844,
+          -33.0232522
+        ]
+      },
+      "properties": {
+        "id": "('node', 7004335092)",
+        "name": "H&H Alimentos",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5471704,
+          -33.0114295
+        ]
+      },
+      "properties": {
+        "id": "('node', 7010155719)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5471369,
+          -33.0114447
+        ]
+      },
+      "properties": {
+        "id": "('node', 7010155720)",
+        "name": "La Marina",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5471094,
+          -33.0114492
+        ]
+      },
+      "properties": {
+        "id": "('node', 7010155721)",
+        "name": "Glow",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5465119,
+          -33.0115397
+        ]
+      },
+      "properties": {
+        "id": "('node', 7010155744)",
+        "name": "La Candelaria",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5003055,
+          -33.0532754
+        ]
+      },
+      "properties": {
+        "id": "('node', 7019791554)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5480509,
+          -33.025757
+        ]
+      },
+      "properties": {
+        "id": "('node', 7320203988)",
+        "name": "La Panadería - empanadas y Fábricas de Masas",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5288761,
+          -32.9884767
+        ]
+      },
+      "properties": {
+        "id": "('node', 7320514185)",
+        "name": "El Shaddai",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5292813,
+          -32.9884546
+        ]
+      },
+      "properties": {
+        "id": "('node', 7320514186)",
+        "name": "Paula",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5290183,
+          -32.9865889
+        ]
+      },
+      "properties": {
+        "id": "('node', 7320514285)",
+        "name": "Jeannie",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5406218,
+          -33.0285029
+        ]
+      },
+      "properties": {
+        "id": "('node', 7490840930)",
+        "name": "Mas miga",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5493791,
+          -33.0131632
+        ]
+      },
+      "properties": {
+        "id": "('node', 8936907709)",
+        "name": "Masa Migas",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5453757,
+          -33.0259283
+        ]
+      },
+      "properties": {
+        "id": "('node', 9216813239)",
+        "name": "Market Edén",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5453361,
+          -33.0261526
+        ]
+      },
+      "properties": {
+        "id": "('node', 9216818902)",
+        "name": "Galindo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5490252,
+          -33.0263637
+        ]
+      },
+      "properties": {
+        "id": "('node', 9217243152)",
+        "name": "Galindo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5486943,
+          -33.0264156
+        ]
+      },
+      "properties": {
+        "id": "('node', 9217243153)",
+        "name": "Ali Alé",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5422287,
+          -32.971875
+        ]
+      },
+      "properties": {
+        "id": "('node', 9288307147)",
+        "name": "Castaño",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5537813,
+          -33.0240812
+        ]
+      },
+      "properties": {
+        "id": "('node', 9429794994)",
+        "name": "OK Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5480832,
+          -33.0422313
+        ]
+      },
+      "properties": {
+        "id": "('node', 9538863994)",
+        "name": "Portón Verde",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5202357,
+          -33.0373629
+        ]
+      },
+      "properties": {
+        "id": "('node', 9576733726)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5203651,
+          -33.0374292
+        ]
+      },
+      "properties": {
+        "id": "('node', 9576733727)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5182891,
+          -33.0368901
+        ]
+      },
+      "properties": {
+        "id": "('node', 9576733741)",
+        "name": "Almacén Expreso",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5177741,
+          -33.0366591
+        ]
+      },
+      "properties": {
+        "id": "('node', 9576733742)",
+        "name": "La Virreyna",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5175018,
+          -33.0364213
+        ]
+      },
+      "properties": {
+        "id": "('node', 9576733744)",
+        "name": "Provisiones Génesis",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5396026,
+          -32.9731497
+        ]
+      },
+      "properties": {
+        "id": "('node', 9625331372)",
+        "name": "Stop",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5397833,
+          -32.9731666
+        ]
+      },
+      "properties": {
+        "id": "('node', 9625331376)",
+        "name": "masquepan",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5638127,
+          -33.0253909
+        ]
+      },
+      "properties": {
+        "id": "('node', 9628981760)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5488566,
+          -33.0077803
+        ]
+      },
+      "properties": {
+        "id": "('node', 9710268613)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5508524,
+          -33.0153937
+        ]
+      },
+      "properties": {
+        "id": "('node', 9777683154)",
+        "name": "Don Bono",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5397411,
+          -32.9590677
+        ]
+      },
+      "properties": {
+        "id": "('node', 9823291256)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5331773,
+          -32.9723063
+        ]
+      },
+      "properties": {
+        "id": "('node', 9975629563)",
+        "name": "Bendita Masa",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5650244,
+          -33.0260391
+        ]
+      },
+      "properties": {
+        "id": "('node', 9989345701)",
+        "name": "Minimarket El Rincón Caroquea",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5446807,
+          -32.9588305
+        ]
+      },
+      "properties": {
+        "id": "('node', 9991484882)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5378991,
+          -32.9720952
+        ]
+      },
+      "properties": {
+        "id": "('node', 9992903286)",
+        "name": "Minimarket Los Chunitos",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5636573,
+          -33.0252483
+        ]
+      },
+      "properties": {
+        "id": "('node', 10039934830)",
+        "name": "El Esfuerzo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5688991,
+          -33.0258362
+        ]
+      },
+      "properties": {
+        "id": "('node', 10057048114)",
+        "name": "Brunch Bran",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5627218,
+          -33.0256719
+        ]
+      },
+      "properties": {
+        "id": "('node', 10057129912)",
+        "name": "Minimarket Super Cuqui 2.0",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.568958,
+          -33.0264598
+        ]
+      },
+      "properties": {
+        "id": "('node', 10057331297)",
+        "name": "Mi Kioskito",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5739228,
+          -33.0276498
+        ]
+      },
+      "properties": {
+        "id": "('node', 10057331299)",
+        "name": "Pastelería America",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5594322,
+          -33.0229622
+        ]
+      },
+      "properties": {
+        "id": "('node', 10058590834)",
+        "name": "Distribuidora Dany",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5532532,
+          -33.0264698
+        ]
+      },
+      "properties": {
+        "id": "('node', 10064543729)",
+        "name": "OK Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5391901,
+          -33.0292648
+        ]
+      },
+      "properties": {
+        "id": "('node', 10064559805)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5526388,
+          -33.0257397
+        ]
+      },
+      "properties": {
+        "id": "('node', 10067644537)",
+        "name": "Punto Copec",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5614439,
+          -33.0489998
+        ]
+      },
+      "properties": {
+        "id": "('node', 10072856997)",
+        "name": "Amasanderia Los Rulos",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5590187,
+          -33.0230551
+        ]
+      },
+      "properties": {
+        "id": "('node', 10073294305)",
+        "name": "Minimarket La Casona",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5706521,
+          -33.0267435
+        ]
+      },
+      "properties": {
+        "id": "('node', 10080202273)",
+        "name": "Johnson's Bakery",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5442909,
+          -32.9696669
+        ]
+      },
+      "properties": {
+        "id": "('node', 10081814559)",
+        "name": "OK Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5661474,
+          -33.0252043
+        ]
+      },
+      "properties": {
+        "id": "('node', 10098169568)",
+        "name": "Don Leo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.551832,
+          -33.0181386
+        ]
+      },
+      "properties": {
+        "id": "('node', 10557402909)",
+        "name": "MasterBröd Bakery and Food",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5567684,
+          -33.029276
+        ]
+      },
+      "properties": {
+        "id": "('node', 10688396994)",
+        "name": "La Baguette",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5452191,
+          -32.9728017
+        ]
+      },
+      "properties": {
+        "id": "('node', 10717422882)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5429052,
+          -32.9495966
+        ]
+      },
+      "properties": {
+        "id": "('node', 10735833297)",
+        "name": "Urbano Minimarket",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5511162,
+          -33.0220862
+        ]
+      },
+      "properties": {
+        "id": "('node', 10741460933)",
+        "name": "Isa Minimarket",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5524392,
+          -33.0151669
+        ]
+      },
+      "properties": {
+        "id": "('node', 10830927276)",
+        "name": "Coccolino",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5194936,
+          -32.9944017
+        ]
+      },
+      "properties": {
+        "id": "('node', 10881777267)",
+        "name": "Dulce Mami",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5437516,
+          -33.0164725
+        ]
+      },
+      "properties": {
+        "id": "('node', 10959665325)",
+        "name": "La Amasanderia",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5007877,
+          -32.9943907
+        ]
+      },
+      "properties": {
+        "id": "('node', 10968360256)",
+        "name": "Upita",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5423767,
+          -33.0097943
+        ]
+      },
+      "properties": {
+        "id": "('node', 10983288744)",
+        "name": "Panadería Pastelería Real",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5194221,
+          -32.9944929
+        ]
+      },
+      "properties": {
+        "id": "('node', 11059724700)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5449509,
+          -33.0088122
+        ]
+      },
+      "properties": {
+        "id": "('node', 11230100533)",
+        "name": "MasQMiga",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5450273,
+          -33.0087928
+        ]
+      },
+      "properties": {
+        "id": "('node', 11230100534)",
+        "name": "OK Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4841762,
+          -33.0309152
+        ]
+      },
+      "properties": {
+        "id": "('node', 11314432247)",
+        "name": "Menestras la Muñe",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4835475,
+          -33.0309214
+        ]
+      },
+      "properties": {
+        "id": "('node', 11323302766)",
+        "name": "Provisiones Veronica",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5157078,
+          -33.0208056
+        ]
+      },
+      "properties": {
+        "id": "('node', 11328409538)",
+        "name": "Panadería Kary",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4827459,
+          -33.0315909
+        ]
+      },
+      "properties": {
+        "id": "('node', 11336869770)",
+        "name": "Minimarket y Botillería El Katita",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5446241,
+          -32.9697907
+        ]
+      },
+      "properties": {
+        "id": "('node', 11375837218)",
+        "name": "Santo Pecado",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5439425,
+          -32.9733135
+        ]
+      },
+      "properties": {
+        "id": "('node', 11388445257)",
+        "name": "Veroka",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5439736,
+          -32.9733198
+        ]
+      },
+      "properties": {
+        "id": "('node', 11388445258)",
+        "name": "Donde More",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5429403,
+          -32.9707551
+        ]
+      },
+      "properties": {
+        "id": "('node', 11388457389)",
+        "name": "Los Andes Abarrotes",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5557198,
+          -33.02351
+        ]
+      },
+      "properties": {
+        "id": "('node', 11484341278)",
+        "name": "SuperMarket Donde \"La Gocha\"",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4853522,
+          -33.0313658
+        ]
+      },
+      "properties": {
+        "id": "('node', 11515975268)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.522356,
+          -33.0206805
+        ]
+      },
+      "properties": {
+        "id": "('node', 11519972834)",
+        "name": "\"Los Cariñositos\"",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5222648,
+          -33.0206895
+        ]
+      },
+      "properties": {
+        "id": "('node', 11519996789)",
+        "name": "Minimarket \"Donde Sofy\"",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5221843,
+          -33.0207053
+        ]
+      },
+      "properties": {
+        "id": "('node', 11520010701)",
+        "name": "Almacén y carnicería \"Abuela Amelia\"",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5248021,
+          -33.0223639
+        ]
+      },
+      "properties": {
+        "id": "('node', 11520030449)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5584136,
+          -33.0180385
+        ]
+      },
+      "properties": {
+        "id": "('node', 11730937531)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5452454,
+          -33.0261716
+        ]
+      },
+      "properties": {
+        "id": "('node', 11737691321)",
+        "name": "Minimarket Katty",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5462002,
+          -32.9483387
+        ]
+      },
+      "properties": {
+        "id": "('node', 11764870016)",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5431525,
+          -32.9567686
+        ]
+      },
+      "properties": {
+        "id": "('node', 11778313280)",
+        "name": "Stop",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5427521,
+          -32.9625284
+        ]
+      },
+      "properties": {
+        "id": "('node', 11778355349)",
+        "name": "Tortas Las Golondrinas",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5473145,
+          -33.0245415
+        ]
+      },
+      "properties": {
+        "id": "('node', 11781970469)",
+        "name": "Alimentos Luz de Luna",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5671073,
+          -33.0260419
+        ]
+      },
+      "properties": {
+        "id": "('node', 11820046766)",
+        "name": "Emporio San Lorenzo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5510497,
+          -33.0058448
+        ]
+      },
+      "properties": {
+        "id": "('node', 11830880353)",
+        "name": "Terraza Vistamar",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5503766,
+          -33.0155998
+        ]
+      },
+      "properties": {
+        "id": "('node', 11830905363)",
+        "name": "Stop",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5503699,
+          -33.015438
+        ]
+      },
+      "properties": {
+        "id": "('node', 11830905364)",
+        "name": "Cory",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.550365,
+          -33.0155197
+        ]
+      },
+      "properties": {
+        "id": "('node', 11940500049)",
+        "name": "Mas Que Pan",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5699041,
+          -33.0330713
+        ]
+      },
+      "properties": {
+        "id": "('node', 11961243877)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5699905,
+          -33.0329589
+        ]
+      },
+      "properties": {
+        "id": "('node', 11961243879)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5659311,
+          -33.0486815
+        ]
+      },
+      "properties": {
+        "id": "('node', 11963442350)",
+        "name": "Minimarket Amaro's",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5654421,
+          -33.045871
+        ]
+      },
+      "properties": {
+        "id": "('node', 11963470934)",
+        "name": "Panadería y Pastelería Padre Hurtado",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5626857,
+          -33.0479923
+        ]
+      },
+      "properties": {
+        "id": "('node', 11969130324)",
+        "name": "Panadería Nueva Aurora",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5395214,
+          -32.95827
+        ]
+      },
+      "properties": {
+        "id": "('node', 12097668882)",
+        "name": "Bakery Lynch",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5437004,
+          -32.9709857
+        ]
+      },
+      "properties": {
+        "id": "('node', 12099032833)",
+        "name": "Medialunas Artesanales",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5398889,
+          -32.9587168
+        ]
+      },
+      "properties": {
+        "id": "('node', 12106963939)",
+        "name": "Spid",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5569989,
+          -33.0233535
+        ]
+      },
+      "properties": {
+        "id": "('node', 12131421317)",
+        "name": "Fika Bakery",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4839191,
+          -33.031173
+        ]
+      },
+      "properties": {
+        "id": "('node', 12139982357)",
+        "name": "Donde Gerard",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4885147,
+          -33.034676
+        ]
+      },
+      "properties": {
+        "id": "('node', 12230264800)",
+        "name": "Kahvete",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5424732,
+          -32.9572883
+        ]
+      },
+      "properties": {
+        "id": "('node', 12270023246)",
+        "name": "Almacén Peche",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5003969,
+          -32.9958559
+        ]
+      },
+      "properties": {
+        "id": "('node', 12289951097)",
+        "name": "Multiservicios Colonial",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5465754,
+          -32.9633288
+        ]
+      },
+      "properties": {
+        "id": "('node', 12344403045)",
+        "name": "Kiosko Don Mario",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.49533,
+          -32.9962185
+        ]
+      },
+      "properties": {
+        "id": "('node', 12608050668)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4953582,
+          -32.9961454
+        ]
+      },
+      "properties": {
+        "id": "('node', 12608050669)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4953636,
+          -32.9961094
+        ]
+      },
+      "properties": {
+        "id": "('node', 12608050670)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5424537,
+          -32.9718963
+        ]
+      },
+      "properties": {
+        "id": "('node', 12684343936)",
+        "name": "TurboMarket",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5508073,
+          -33.0132315
+        ]
+      },
+      "properties": {
+        "id": "('node', 13012204203)",
+        "name": "Sabores de Máncora",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5483814,
+          -33.0500684
+        ]
+      },
+      "properties": {
+        "id": "('node', 13048832982)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4991871,
+          -32.9886652
+        ]
+      },
+      "properties": {
+        "id": "('node', 13074277127)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5430494,
+          -32.9572982
+        ]
+      },
+      "properties": {
+        "id": "('node', 13113157430)",
+        "name": "Pasta y Postre",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5570472,
+          -33.0231157
+        ]
+      },
+      "properties": {
+        "id": "('node', 13139301120)",
+        "name": "Pacha Mama",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5349652,
+          -33.004054
+        ]
+      },
+      "properties": {
+        "id": "('node', 13194801483)",
+        "name": "Yumbito",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4981772,
+          -32.9920904
+        ]
+      },
+      "properties": {
+        "id": "('node', 13203387042)",
+        "name": "Minimarket Leonardo",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5479862,
+          -33.0227668
+        ]
+      },
+      "properties": {
+        "id": "('node', 13254832624)",
+        "name": "Gulf Store",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5492379,
+          -33.0142806
+        ]
+      },
+      "properties": {
+        "id": "('node', 13690258639)",
+        "name": "Pasteleria Paula",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5527457,
+          -33.0150742
+        ]
+      },
+      "properties": {
+        "id": "('node', 13733359606)",
+        "name": "Torta Caluga",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5528375,
+          -33.0159018
+        ]
+      },
+      "properties": {
+        "id": "('node', 13733380414)",
+        "name": "Kombi Store",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5055283,
+          -32.9648071
+        ]
+      },
+      "properties": {
+        "id": "('node', 13733871572)",
+        "name": "Pronto Express",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5073007,
+          -32.9640203
+        ]
+      },
+      "properties": {
+        "id": "('node', 13733871573)",
+        "name": "Pronto Express",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5379302,
+          -33.0285915
+        ]
+      },
+      "properties": {
+        "id": "('node', 13910826688)",
+        "name": "Tía Paola",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5432413,
+          -33.0204207
+        ]
+      },
+      "properties": {
+        "id": "('node', 14012859594)",
+        "name": "Pan & Fermento",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.54417040000001,
+          -33.0027514
+        ]
+      },
+      "properties": {
+        "id": "('way', 452107796)",
+        "name": "Punto",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.54946525000001,
+          -33.02775990000001
+        ]
+      },
+      "properties": {
+        "id": "('way', 519080868)",
+        "name": "Vía Quinta",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.55658176138466,
+          -33.01625696332219
+        ]
+      },
+      "properties": {
+        "id": "('way', 544818321)",
+        "name": "aStop",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5073308,
+          -32.994895500000005
+        ]
+      },
+      "properties": {
+        "id": "('way', 550968006)",
+        "name": "Minimercado",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.50634600000001,
+          -32.995469549999996
+        ]
+      },
+      "properties": {
+        "id": "('way', 565724031)",
+        "name": "Mini Market",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.54072830000001,
+          -33.02468815
+        ]
+      },
+      "properties": {
+        "id": "('way', 686994284)",
+        "name": "Panadería / Almacén de Barrio",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.54331279106326,
+          -33.00195814521635
+        ]
+      },
+      "properties": {
+        "id": "('way', 699145165)",
+        "name": "blacky black",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.55074563750226,
+          -33.01339996931853
+        ]
+      },
+      "properties": {
+        "id": "('way', 1228009631)",
+        "name": "Maitena",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.53175680000001,
+          -33.033892249999994
+        ]
+      },
+      "properties": {
+        "id": "('way', 1250966398)",
+        "name": "Comercial Stefania",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4848622,
+          -33.03281355
+        ]
+      },
+      "properties": {
+        "id": "('way', 1323450011)",
+        "name": "Minimarket \"Donde el tata Guille\"",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.53173279562293,
+          -33.029637418488086
+        ]
+      },
+      "properties": {
+        "id": "('way', 1502733118)",
+        "name": "Minimarket Entremigas",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
       }
     }
   ]
