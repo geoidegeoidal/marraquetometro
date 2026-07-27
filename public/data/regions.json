@@ -1,0 +1,47 @@
+{
+  "gran_santiago": {
+    "name": "Gran Santiago",
+    "center": [
+      -70.6506,
+      -33.4372
+    ],
+    "zoom": 11.5,
+    "bbox": [
+      -70.78,
+      -33.6,
+      -70.5,
+      -33.33
+    ],
+    "overpass_bbox": "(-33.60, -70.78, -33.33, -70.50)"
+  },
+  "gran_valparaiso": {
+    "name": "Gran Valparaíso",
+    "center": [
+      -71.5518,
+      -33.0245
+    ],
+    "zoom": 12,
+    "bbox": [
+      -71.65,
+      -33.15,
+      -71.3,
+      -32.9
+    ],
+    "overpass_bbox": "(-33.15, -71.65, -32.90, -71.30)"
+  },
+  "gran_concepcion": {
+    "name": "Gran Concepción",
+    "center": [
+      -73.0498,
+      -36.827
+    ],
+    "zoom": 12,
+    "bbox": [
+      -73.18,
+      -36.9,
+      -72.95,
+      -36.7
+    ],
+    "overpass_bbox": "(-36.90, -73.18, -36.70, -72.95)"
+  }
+}

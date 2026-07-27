@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.612,
+          -33.425
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Panadería Lo Saldes",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.618,
+          -33.43
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Panadería Las Rosas Chicas",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.615,
+          -33.428
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Almacén Don Pedro",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.622,
+          -33.438
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Bakehouse Barrio Italia",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.608,
+          -33.422
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Panadería San Antonio",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    }
+  ]
+}

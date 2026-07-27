@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0498,
+          -36.827
+        ]
+      },
+      "properties": {
+        "id": "1",
+        "name": "Panadería Tradicional Gran Concepción",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04480000000001,
+          -36.823
+        ]
+      },
+      "properties": {
+        "id": "2",
+        "name": "Almacén Don Juan",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0558,
+          -36.832
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "name": "Panadería El Sol",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    }
+  ]
+}

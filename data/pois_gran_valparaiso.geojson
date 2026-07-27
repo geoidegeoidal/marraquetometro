@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5518,
+          -33.0245
+        ]
+      },
+      "properties": {
+        "id": "1",
+        "name": "Panadería Tradicional Gran Valparaíso",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5468,
+          -33.020500000000006
+        ]
+      },
+      "properties": {
+        "id": "2",
+        "name": "Almacén Don Juan",
+        "shop": "convenience",
+        "tipo_label": "Almacén de Barrio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5578,
+          -33.029500000000006
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "name": "Panadería El Sol",
+        "shop": "bakery",
+        "tipo_label": "Panadería Dedicada"
+      }
+    }
+  ]
+}
