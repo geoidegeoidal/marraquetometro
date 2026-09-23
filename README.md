@@ -15,6 +15,8 @@ Mediante análisis de redes viales topológicas (OSMnx / NetworkX) y algoritmos 
 
 ---
 
+> **Estado: prototipo experimental.** El modelo de “crujientez” es una exploración lúdica, no una medición física validada ni una recomendación de consumo.
+
 ## 🌟 Características Principales
 
 - 🗺️ **Visualizador Interactivo Next-Gen**: Mapa web vectorizado con **MapLibre GL JS**, diseño *Dark Glassmorphism*, renderizado suave de isocronas poligonales y marcadores interactivos.
@@ -114,3 +116,4 @@ Este proyecto está bajo la Licencia **MIT** — puedes usarlo, modificarlo y co
 <p align="center">
   Hecho con 🥖, ☕ y 🗺️ para la comunidad de Ciencia de Datos Espaciales en Chile.
 </p>
+
