@@ -1,6 +1,6 @@
 # 🥖 El Marraquetómetro 🇨🇱
 
-### *Modelamiento Espacial e Isocronas Peatonales de la Crujientez del Pan Fresco en Chile*
+### *Accesibilidad a panaderías y una exploración lúdica del pan fresco en Chile*
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
 ![Geospatial](https://img.shields.io/badge/GeoPandas-OSMnx-green?style=for-the-badge&logo=qgis)
@@ -9,32 +9,35 @@
 
 > **"¿Cuántos minutos soporta el pan crujiente antes de convertirse en goma durante la caminata a casa?"**
 
-**El Marraquetómetro** es una plataforma de analítica espacial urbana que modela la accesibilidad peatonal a panaderías y almacenes de barrio en las principales áreas metropolitanas de Chile (**Gran Santiago**, **Gran Valparaíso** y **Gran Concepción**).
+**El Marraquetómetro** explora la accesibilidad a panaderías y almacenes de barrio en **Gran Santiago**, **Gran Valparaíso** y **Gran Concepción** mediante un visor de isocronas precalculadas.
 
-Mediante análisis de redes viales topológicas (OSMnx / NetworkX) y algoritmos de isocronas dinámicas, el sistema evalúa el gradiente de degradación organoléptica del pan recién horneado (especialmente la icónica **Marraqueta / Pan Francés / Pan Batido**) desde el punto de venta hasta el hogar.
+La **marraqueta / pan francés / pan batido** sirve como hilo narrativo para leer tiempos de traslado; el visor no mide la temperatura, textura ni calidad real del pan.
+
+[Ver el mapa localmente](#inicio-rápido) · [Escala lúdica](#escala-lúdica-de-crujientez) · [Regenerar datos](#regenerar-datos-opcional)
 
 ---
 
 > **Estado: prototipo experimental.** El modelo de “crujientez” es una exploración lúdica, no una medición física validada ni una recomendación de consumo.
 
-## 🌟 Características Principales
+## Qué incluye
 
-- 🗺️ **Visualizador Interactivo Next-Gen**: Mapa web vectorizado con **MapLibre GL JS**, diseño *Dark Glassmorphism*, renderizado suave de isocronas poligonales y marcadores interactivos.
-- 🇨🇱 **Cobertura Tri-Regional**:
-  - **Gran Santiago** (Providencia, Las Condes, Santiago Centro, Ñuñoa, etc.)
-  - **Gran Valparaíso** (Valparaíso, Viña del Mar, Concón)
-  - **Gran Concepción** (Concepción, San Pedro de la Paz, Talcahuano)
-- 🚶 **Isocronas Basadas en Red Real**: Cálculo por rastro de red peatonal ($v = 1.2\text{ m/s}$) superando los búferes euclidianos simples.
-- 🎯 **Geolocalización & Búsqueda Nominatim**: Encuentra la calidad esperada de tu marraqueta desde cualquier dirección o tu ubicación GPS en tiempo real.
-- 📊 **Métricas de Cobertura Espacial**: Panel analítico dinámico con cálculo de superficie cubierta ($\text{km}^2$) por categoría de frescura.
+| Componente | Qué permite |
+|---|---|
+| Mapa MapLibre GL JS | Explorar las capas GeoJSON incluidas con una interfaz oscura. |
+| Selector regional | Cambiar entre Gran Santiago, Gran Valparaíso y Gran Concepción. |
+| Puntos de interés | Consultar panaderías y almacenes del conjunto cargado. |
+| Inspección por clic | Consultar la zona del mapa y una estimación orientativa de minutos. |
+| Scripts Python | Descargar o regenerar datos mediante distintos flujos geoespaciales. |
+
+> El tiempo mostrado al inspeccionar un punto se calcula con la distancia geodésica al POI más cercano y una velocidad de 1,2 m/s. No es una ruta peatonal calculada en ese momento ni debe confundirse con las isocronas precalculadas.
 
 ---
 
-## 🥖 Escala Científica de Crujientez
+## Escala lúdica de crujientez
 
-El modelo categoriza el territorio urbano según el tiempo de traslado peatonal desde la panadería más cercana:
+Las categorías representan intervalos de tiempo con nombres humorísticos. Las descripciones de textura son parte de la narrativa, no resultados de una validación física:
 
-| Nivel de Frescura | Tiempo | Color UI | Descripción Organoléptica |
+| Nivel de Frescura | Tiempo | Color UI | Descripción Lúdica |
 | :--- | :--- | :--- | :--- |
 | **Crocante y Calientito** | $\le 3\text{ min}$ | 🔴 `#FF5722` | Pan recién salidito del horno. Corteza crujiente perfecta y miga esponjosa. |
 | **Tibio Aceptable** | $3 - 7\text{ min}$ | 🟡 `#FFC107` | El pan se está enfriando. Mantiene buena textura, apto para mantequilla derretida. |
@@ -58,7 +61,7 @@ El modelo categoriza el territorio urbano según el tiempo de traslado peatonal 
 
 ---
 
-## 🚀 Inicio Rápido
+## Inicio rápido
 
 ### 1. Clonar el repositorio
 ```bash
@@ -66,22 +69,37 @@ git clone https://github.com/geoidegeoidal/marraquetometro.git
 cd marraquetometro
 ```
 
-### 2. Instalar dependencias de Python
-```bash
-pip install -r requirements.txt
-```
+### 2. Abrir el visor con los datos incluidos
 
-### 3. Generar / Actualizar datos de Isocronas
-```bash
-# Procesa el grafo vial y POIs para las regiones
-python download_all_regions.py
-```
+No necesitas instalar las dependencias geoespaciales ni regenerar datos para esta primera consulta. Con Python disponible:
 
-### 4. Iniciar el Servidor Web Local
 ```bash
 python -m http.server 8080
 ```
-Abre en tu navegador: [http://localhost:8080](http://localhost:8080)
+
+Abre [http://localhost:8080](http://localhost:8080) y selecciona una región. El visor carga los archivos de [`data/`](data/).
+
+**Necesita conexión:** las bibliotecas, fuentes y el mapa base se cargan desde servicios externos. Servir los GeoJSON localmente no convierte toda la aplicación en una solución offline.
+
+## Regenerar datos (opcional)
+
+Este paso es distinto de consultar el mapa y puede sobrescribir archivos de `data/` y `public/data/`. Conserva una copia de los resultados que quieras mantener.
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+El flujo de [`download_all_regions.py`](download_all_regions.py) consulta **Overpass** para los POI y **OpenRouteService** para las isocronas. Antes de ejecutarlo, revisa su configuración y usa credenciales propias válidas; no publiques claves en el repositorio. Las cuotas y disponibilidad de estos servicios pueden limitar los resultados.
+
+```bash
+# Solo después de revisar la configuración de los servicios
+python download_all_regions.py
+```
+
+**Límites de este generador:**
+- Si Overpass no devuelve POI, el script crea una muestra sintética. No debe interpretarse como un catastro verificado de comercios.
+- La consulta de isocronas usa como máximo los primeros 25 POI por región.
+- Los archivos pueden quedar incompletos si fallan las consultas externas; revisa los mensajes y resultados antes de publicarlos.
 
 ---
 
