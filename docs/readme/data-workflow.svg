@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="bread-flow-title bread-flow-desc">
+  <title id="bread-flow-title">Marraquetómetro: consultar y regenerar</title>
+  <desc id="bread-flow-desc">El visor consulta los datos incluidos sin una clave ORS; un proceso Python opcional consulta Overpass y ORS y genera archivos que deben revisarse antes de publicar.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#94a3b8"/></marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ff7043"/></marker>
+    <marker id="arrow-link" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#94a3b8"/></marker>
+  </defs>
+  <rect width="960" height="600" fill="#0f172a"/>
+  <g font-family="Inter, 'Segoe UI', sans-serif" fill="#f8fafc">
+    <text x="48" y="48" font-size="12" letter-spacing="2" fill="#94a3b8">MARRAQUETÓMETRO / GUÍA DE DATOS</text>
+    <text x="48" y="96" font-family="Outfit, Inter, 'Segoe UI', sans-serif" font-size="36" font-weight="600">Consultar no es regenerar</text>
+    <text x="48" y="128" font-size="16" fill="#cbd5e1">Dos recorridos distintos. Una consulta inicial no necesita una clave ORS.</text>
+
+    <text x="48" y="180" font-size="16" font-weight="600" fill="#ff7043">01 / CONSULTAR EL MAPA</text>
+    <path d="M304 252 H480" fill="none" stroke="#ff7043" stroke-width="2" marker-end="url(#arrow-accent)"/>
+    <rect x="332" y="216" width="120" height="24" fill="#0f172a"/>
+    <text x="392" y="232" text-anchor="middle" font-size="12" fill="#cbd5e1">HTTP LOCAL</text>
+    <rect x="48" y="204" width="256" height="100" rx="8" fill="#172237" stroke="#334155"/>
+    <text x="72" y="244" font-size="24" font-weight="600">Datos incluidos</text>
+    <text x="72" y="276" font-size="16" fill="#cbd5e1">data/ · GeoJSON por región</text>
+    <rect x="480" y="204" width="432" height="100" rx="8" fill="#251f27" stroke="#ff7043"/>
+    <text x="504" y="244" font-size="24" font-weight="600">Visor en el navegador</text>
+    <text x="504" y="276" font-size="16" fill="#cbd5e1">MapLibre · fuentes y mapa base requieren red</text>
+
+    <line x1="48" y1="336" x2="912" y2="336" stroke="#334155"/>
+    <text x="48" y="376" font-size="16" font-weight="600" fill="#cbd5e1">02 / REGENERAR DATOS · OPCIONAL</text>
+    <path d="M288 452 H360" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow-link)"/>
+    <path d="M600 452 H672" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="48" y="404" width="240" height="100" rx="8" fill="#172237" stroke="#334155"/>
+    <text x="72" y="440" font-size="20" font-weight="600">Overpass + ORS</text>
+    <text x="72" y="472" font-size="16" fill="#cbd5e1">POI e isocronas</text>
+    <rect x="360" y="404" width="240" height="100" rx="8" fill="#172237" stroke="#334155"/>
+    <text x="384" y="440" font-size="20" font-weight="600">Generador Python</text>
+    <text x="384" y="472" font-size="16" fill="#cbd5e1">Clave solo en el entorno</text>
+    <rect x="672" y="404" width="240" height="100" rx="8" fill="#172237" stroke="#334155"/>
+    <text x="696" y="440" font-size="20" font-weight="600">Revisar archivos</text>
+    <text x="696" y="472" font-size="16" fill="#cbd5e1">data/ y public/data/</text>
+
+    <text x="48" y="552" font-size="16" fill="#cbd5e1">Isocronas precalculadas ≠ estimación geodésica de minutos al hacer clic.</text>
+    <text x="48" y="576" font-size="12" fill="#94a3b8">El diagrama no representa cobertura verificada, rutas en vivo ni una medición física del pan.</text>
+  </g>
+</svg>

@@ -48,6 +48,10 @@ Las categorías representan intervalos de tiempo con nombres humorísticos. Las 
 
 ## 🛠️ Arquitectura y Tecnologías
 
+![Dos recorridos: consultar los GeoJSON incluidos en el visor y regenerar opcionalmente archivos mediante Python, Overpass y ORS.](docs/readme/data-workflow.svg)
+
+**Lectura del flujo:** abrir el visor no requiere una clave ORS. La regeneración es un proceso separado y sus archivos deben revisarse antes de publicar; las isocronas precalculadas no son la estimación geodésica por clic. [Fuente editable del diagrama](docs/readme/data-workflow.html).
+
 ### **Backend / Pipeline Espacial**
 - **Python 3.10+**
 - **[OSMnx](https://osmnx.readthedocs.io/) & [NetworkX](https://networkx.org/)**: Extracción de grafos viales desde OpenStreetMap y cálculo de árbol de caminos mínimos (Dijkstra).
