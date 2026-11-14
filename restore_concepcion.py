@@ -5,7 +5,7 @@ import requests
 from shapely.geometry import shape, Polygon
 from shapely.ops import unary_union
 
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjcyYjk1OWVkYjZiNmI5ZWE3MGMyODBjNTBkMTVkNTcyNmUzYWE5MmQ1MDViNTIzMWVjNjg1MjcwIiwiaCI6Im11cm11cjY0In0="
+from ors_config import require_ors_api_key
 
 ENDPOINTS = [
     "https://overpass.private.coffee/api/interpreter",
@@ -45,6 +45,7 @@ def get_concepcion_pois():
     return []
 
 def main():
+    require_ors_api_key()
     pois = get_concepcion_pois()
     if pois:
         poi_features = [{
@@ -68,7 +69,7 @@ def main():
 
         # ORS isochrones for Gran Concepción
         url = "https://api.openrouteservice.org/v2/isochrones/foot-walking"
-        headers = {"Authorization": ORS_API_KEY, "Content-Type": "application/json"}
+        headers = {"Authorization": require_ors_api_key(), "Content-Type": "application/json"}
         sample = pois[:80]
         f3, f7, f12 = [], [], []
 

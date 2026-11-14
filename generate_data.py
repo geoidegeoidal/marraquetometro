@@ -14,7 +14,7 @@ import pandas as pd
 from shapely.geometry import shape, Point, Polygon, MultiPolygon
 from shapely.ops import unary_union
 
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjcyYjk1OWVkYjZiNmI5ZWE3MGMyODBjNTBkMTVkNTcyNmUzYWE5MmQ1MDViNTIzMWVjNjg1MjcwIiwiaCI6Im11cm11cjY0In0="
+from ors_config import require_ors_api_key
 
 # Configuración de área (Providencia - Barrio Italia / Pedro de Valdivia, Santiago)
 BBOX_SANTIAGO = [-70.625, -33.435, -70.605, -33.420] # [min_lon, min_lat, max_lon, max_lat]
@@ -69,7 +69,7 @@ def fetch_ors_isochrones(locations):
     url = "https://api.openrouteservice.org/v2/isochrones/foot-walking"
     
     headers = {
-        "Authorization": ORS_API_KEY,
+        "Authorization": require_ors_api_key(),
         "Content-Type": "application/json"
     }
 
@@ -107,9 +107,9 @@ def fetch_ors_isochrones(locations):
                     elif val == 720:
                         all_features_12min.append(geom)
             else:
-                print(f"ORS API Error batch {i}: {r.status_code} - {r.text}")
+                print(f"ORS request failed (HTTP {r.status_code}).")
         except Exception as e:
-            print(f"Excepción en ORS API batch {i}: {e}")
+            print("ORS request failed; response details omitted to protect credentials.")
         time.sleep(1)
 
     print("--> Realizando unión topológica de polígonos por zona de crujientez...")
@@ -131,6 +131,7 @@ def fetch_ors_isochrones(locations):
     }
 
 def main():
+    require_ors_api_key()
     os.makedirs("./public/data", exist_ok=True)
     
     # 1. Obtener POIs

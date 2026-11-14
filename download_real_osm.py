@@ -15,7 +15,7 @@ from shapely.ops import unary_union
 
 import requests
 
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjcyYjk1OWVkYjZiNmI5ZWE3MGMyODBjNTBkMTVkNTcyNmUzYWE5MmQ1MDViNTIzMWVjNjg1MjcwIiwiaCI6Im11cm11cjY0In0="
+from ors_config import require_ors_api_key
 
 ox.settings.use_cache = True
 ox.settings.log_console = False
@@ -73,7 +73,7 @@ def fetch_pois_osmnx(places):
 
 def compute_isochrones_ors(pois, max_pois=20):
     url = "https://api.openrouteservice.org/v2/isochrones/foot-walking"
-    headers = {"Authorization": ORS_API_KEY, "Content-Type": "application/json"}
+    headers = {"Authorization": require_ors_api_key(), "Content-Type": "application/json"}
     
     sample = pois[:max_pois] if len(pois) > max_pois else pois
     f3, f7, f12 = [], [], []
@@ -97,7 +97,7 @@ def compute_isochrones_ors(pois, max_pois=20):
                     elif val == 420: f7.append(g)
                     elif val == 720: f12.append(g)
         except Exception as e:
-            print(f"Error en batch ORS: {e}")
+            print("ORS request failed; response details omitted to protect credentials.")
         time.sleep(1)
 
     u3 = unary_union(f3) if f3 else Polygon()
@@ -110,6 +110,7 @@ def compute_isochrones_ors(pois, max_pois=20):
     return z1, z2, z3
 
 def main():
+    require_ors_api_key()
     import pandas as pd
     os.makedirs("./data", exist_ok=True)
     os.makedirs("./public/data", exist_ok=True)

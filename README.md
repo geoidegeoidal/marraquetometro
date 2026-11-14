@@ -89,12 +89,44 @@ Este paso es distinto de consultar el mapa y puede sobrescribir archivos de `dat
 python -m pip install -r requirements.txt
 ```
 
-El flujo de [`download_all_regions.py`](download_all_regions.py) consulta **Overpass** para los POI y **OpenRouteService** para las isocronas. Antes de ejecutarlo, revisa su configuración y usa credenciales propias válidas; no publiques claves en el repositorio. Las cuotas y disponibilidad de estos servicios pueden limitar los resultados.
+El flujo de [`download_all_regions.py`](download_all_regions.py) consulta **Overpass** para los POI y **OpenRouteService** para las isocronas. Los ocho generadores que usan ORS leen `ORS_API_KEY` del entorno mediante [`ors_config.py`](ors_config.py). Si falta o está vacía, se detienen antes de consultar servicios o escribir datos. Las cuotas y disponibilidad de los servicios pueden limitar los resultados.
+
+Introduce una **clave nueva** sin guardarla en el historial de comandos:
 
 ```bash
-# Solo después de revisar la configuración de los servicios
+# Bash: la entrada no se muestra en pantalla
+read -rsp 'ORS API key: ' ORS_API_KEY; echo
+export ORS_API_KEY
 python download_all_regions.py
+unset ORS_API_KEY
 ```
+
+```powershell
+# PowerShell 7+: la entrada no se muestra en pantalla
+$env:ORS_API_KEY = Read-Host 'ORS API key' -MaskInput
+python download_all_regions.py
+Remove-Item Env:ORS_API_KEY
+```
+
+[` .env.example`](.env.example) es solo una plantilla vacía: **los scripts no cargan archivos `.env` automáticamente**. `.env` y sus variantes se excluyen de Git, pero eso no protege claves escritas en código, HTML, GeoJSON o logs. El visor y el pipeline OSMnx de `marraquetometro.py` no necesitan esta variable.
+
+### Prevención de filtraciones
+
+Instala el hook en **cada clon** antes de trabajar (requiere acceso a la red la primera vez):
+
+```bash
+python -m pip install pre-commit
+pre-commit install
+pre-commit run --all-files
+```
+
+El hook utiliza Gitleaks fijado a una revisión concreta. El workflow **Credential safety** comprueba archivos actuales y commits nuevos con resultados redactados; no utiliza la clave ORS ni consulta su API. Conserva las reglas generales de Gitleaks y añade detección específica de ORS.
+
+Para comprobar localmente la configuración sin red: `python -m unittest discover -s tests -v`. Los tests de integración del escáner necesitan Gitleaks instalado o `GITLEAKS_BIN` apuntando a su ejecutable; CI lo proporciona y ejecuta toda la suite.
+
+**Límites:** un hook local puede omitirse y CI se ejecuta después de publicar. Activa además [push protection](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/prevent-future-leaks/enable-push-protection) y exige el check `security` para fusionar, cuando tu configuración de GitHub lo permita. Ningún escáner garantiza detectar todos los formatos de clave.
+
+**Incidente anterior:** una clave ORS estuvo publicada y sigue accesible en el historial. Su propietario debe revocarla en OpenRouteService y crear otra; eliminarla del código no la invalida. No reutilices la anterior ni la pegues en issues, PR o chats. Este cambio no reescribe el historial ni certifica que la revocación ya ocurrió.
 
 **Límites de este generador:**
 - Si Overpass no devuelve POI, el script crea una muestra sintética. No debe interpretarse como un catastro verificado de comercios.
