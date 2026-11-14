@@ -14,7 +14,7 @@ import geopandas as gpd
 from shapely.geometry import shape, Point, Polygon, MultiPolygon
 from shapely.ops import unary_union
 
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjcyYjk1OWVkYjZiNmI5ZWE3MGMyODBjNTBkMTVkNTcyNmUzYWE5MmQ1MDViNTIzMWVjNjg1MjcwIiwiaCI6Im11cm11cjY0In0="
+from ors_config import require_ors_api_key
 
 REGIONS = {
     "gran_santiago": {
@@ -74,7 +74,7 @@ def fetch_overpass_pois(bbox_str):
 def compute_ors_isochrones(locations, max_pois=25):
     """Computa isocronas peatonales con ORS API."""
     url = "https://api.openrouteservice.org/v2/isochrones/foot-walking"
-    headers = {"Authorization": ORS_API_KEY, "Content-Type": "application/json"}
+    headers = {"Authorization": require_ors_api_key(), "Content-Type": "application/json"}
 
     # Muestrear si hay demasiados POIs para respetar cuotas de API
     sample_locs = locations[:max_pois] if len(locations) > max_pois else locations
@@ -102,9 +102,9 @@ def compute_ors_isochrones(locations, max_pois=25):
                     elif val == 420: features_7m.append(geom)
                     elif val == 720: features_12m.append(geom)
             else:
-                print(f"ORS Warning ({r.status_code}): {r.text[:100]}")
+                print(f"ORS request failed (HTTP {r.status_code}).")
         except Exception as e:
-            print(f"Excepción en ORS: {e}")
+            print("ORS request failed; response details omitted to protect credentials.")
         time.sleep(1)
 
     # Unión y anillos concéntricos
@@ -205,6 +205,7 @@ def process_region(region_key, info, output_dir):
     print(f"--> ¡Completado {info['name']}!")
 
 def main():
+    require_ors_api_key()
     output_dir = "./data"
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs("./public/data", exist_ok=True)

@@ -14,7 +14,7 @@ import geopandas as gpd
 from shapely.geometry import shape, Point, Polygon, MultiPolygon
 from shapely.ops import unary_union
 
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjcyYjk1OWVkYjZiNmI5ZWE3MGMyODBjNTBkMTVkNTcyNmUzYWE5MmQ1MDViNTIzMWVjNjg1MjcwIiwiaCI6Im11cm11cjY0In0="
+from ors_config import require_ors_api_key
 
 # Endpoints de Overpass API con espejos de respaldo
 OVERPASS_ENDPOINTS = [
@@ -117,7 +117,7 @@ def compute_all_ors_isochrones(pois):
     """Computa isocronas masivas en lotes de 5 para TODOS los POIs extraídos."""
     url = "https://api.openrouteservice.org/v2/isochrones/foot-walking"
     headers = {
-        "Authorization": ORS_API_KEY,
+        "Authorization": require_ors_api_key(),
         "Content-Type": "application/json"
     }
 
@@ -149,7 +149,7 @@ def compute_all_ors_isochrones(pois):
             else:
                 print(f"   ORS Warning Lote {i//5 + 1}: Status {r.status_code}")
         except Exception as e:
-            print(f"   Error de conexión ORS en lote {i//5 + 1}: {e}")
+            print("ORS request failed; response details omitted to protect credentials.")
         time.sleep(0.6)
 
     print(f"--> Realizando fusión topológica de geometrías de red...")
@@ -165,6 +165,7 @@ def compute_all_ors_isochrones(pois):
     return z1, z2, z3
 
 def main():
+    require_ors_api_key()
     os.makedirs("./data", exist_ok=True)
     os.makedirs("./public/data", exist_ok=True)
 

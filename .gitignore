@@ -35,3 +35,10 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Local credentials (example must remain empty)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
